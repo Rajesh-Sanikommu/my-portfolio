@@ -1,0 +1,145 @@
+:root {
+  --bg-color: #0b0c10;
+  --accent: #854fee;
+  --light: #f3f3f3;
+}
+
+body {
+  font-family: 'Montserrat', Arial, sans-serif;
+  margin: 0;
+  color: var(--light);
+  background-color: var(--bg-color);
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.navbar {
+  background: var(--accent);
+  padding: 15px 0;
+}
+
+.navbar .logo {
+  margin: 0;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+.navbar nav a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.navbar nav a:hover {
+  text-decoration: underline;
+}
+
+#hero {
+  background: url('https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif') center/cover fixed no-repeat;
+  text-align: center;
+  padding: 150px 0;
+}
+
+#hero h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+#hero h3 {
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.social a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 1.8em;
+}
+
+.btn {
+  background: var(--accent);
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 0.9em;
+  text-decoration: none;
+}
+
+.social .btn {
+  margin-left: 15px;
+}
+
+.about-flex {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.skill {
+  margin-bottom: 10px;
+}
+
+.skill .bar {
+  background: #333;
+  height: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.skill .bar div {
+  background: var(--accent);
+  height: 100%;
+}
+
+.exp-item {
+  margin-bottom: 20px;
+}
+
+.edu-item {
+  margin-bottom: 20px;
+}
+
+#projects ul {
+  list-style: none;
+  padding: 0;
+}
+
+#projects li {
+  background: #1f1f1f;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background: #111;
+}
+
+#topBtn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  padding: 10px 12px;
+  border-radius: 50%;
+  font-size: 1.2em;
+  cursor: pointer;
+  display: none;
+}
+
+#topBtn.show {
+  display: block;
+}
