@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #202124; /* dark background */
+  color: #f1f3f4;
+}
+header {
+  background-color: #0d9488; /* teal */
+  padding: 20px;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+}
+nav a {
+  color: #ffffff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+section {
+  padding: 20px;
+}
+#hero {
+  background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjl0ZzVmNmJqdzVydGRsc3pzeHNsc2dpOTZpbXBmeHRhMWcxazk1cCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/26tn33aiTi1jkl6H6/giphy.gif');
+  background-size: cover;
+  text-align: center;
+  padding: 60px 20px;
+}
+#hero h2 {
+  color: #ffffff;
+}
+#projects ul {
+  list-style: none;
+  padding: 0;
+}
+#projects li {
+  background: #2d2f31;
+  margin: 10px 0;
+  padding: 10px;
+}
