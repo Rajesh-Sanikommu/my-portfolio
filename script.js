@@ -17,4 +17,12 @@ async function loadRepos() {
   }
 }
 
-document.addEventListener('DOMContentLoaded', loadRepos);
+document.addEventListener('DOMContentLoaded', () => {
+  loadRepos();
+  new Typed('#typed', {
+    strings: ['Data Engineer', 'ML Enthusiast', 'Analyst'],
+    typeSpeed: 50,
+    backSpeed: 25,
+    loop: true
+  });
+});
